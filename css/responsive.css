@@ -1,0 +1,101 @@
+@media (min-width: 1025px) {
+
+    .navbar.navbar-expand-lg .navbar-toggler {
+        display: none;
+    }
+
+    .navbar.navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+    }
+}
+
+@media (max-width:1024px){
+    .booking-shell { margin-top: -40px;}
+    .navbar.navbar-expand-lg .navbar-toggler {
+        display: block;
+    }
+
+    .navbar.navbar-expand-lg .navbar-collapse {
+        display: none!important;
+        width: 100%;
+    }
+
+    .navbar.navbar-expand-lg .navbar-collapse.show {
+        display: block!important;
+    }
+}
+
+@media (max-width:992px){
+    .hero-benefits { 
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .city-tabs{flex-direction:row; min-width:0;}
+    .booking-shell { margin-top: -42px;}
+    .owner-stats-widget{position:static; margin-top:16px; width:100%;}
+}
+
+@media (max-width: 991.98px) {
+    .hero {
+        min-height: 620px;
+        padding-top: 70px;
+        background-position: 62% center;
+      }
+
+    .hero-benefits { grid-template-columns: repeat(4, 1fr); }
+    .booking-shell { margin-top: -20px; }
+}
+
+@media (max-width:768px){
+    .section-padding{
+        padding:48px 0;
+    }
+
+    .hero-heading{
+        font-size:2rem;
+    }
+
+    .hero-suitcase-badge{
+        display:none;
+    }
+
+    .hero-benefits { grid-template-columns: repeat(2, 1fr);}
+
+    .booking-widget{margin-top:24px;}
+    .booking-shell { margin-top: -126px; }
+    .booking-widget{flex-direction:column;}
+}
+
+@media (max-width:576px){
+    .section-title{
+        font-size:1.6rem;
+    }
+    .big-heading{font-size:2.2rem;}
+
+    .hero-benefits { grid-template-columns: repeat(2, 1fr); }
+
+    .booking-shell { margin-top: -136px; }
+}
+
+@media (max-width:575.98px){
+    .hero-benefits {
+        grid-template-columns: 1fr 1fr; gap: 1rem 1rem;
+    }
+
+    .hero-benefit {
+        font-size: .9rem;
+    }
+
+    .booking-shell { margin-top: -126px; }
+}
+
+@media (max-width:536px) {
+    .booking-shell { margin-top: -96px; }
+    .hero{
+        background: linear-gradient(90deg, rgba(255,255,255,.98) 0%, rgba(255,255,255,.9) 54%, rgba(255,255,255,.5) 82%), url("https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=2200&q=88") center/cover no-repeat;
+    }
+}
+
+@media (max-width:360px) {
+    .booking-shell { margin-top: -56px; }
+}
